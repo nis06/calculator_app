@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Black+Ops+One&family=Borel&family=Montserrat:wght@200;300;400&family=Nunito:wght@200;500&family=Pacifico&family=Poppins:ital,wght@0,200;0,400;0,700;1,700&family=Rubik:wght@500&family=Work+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Black Ops One', cursive;
+
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: rgb(36, 35, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    background: black;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow:-8px -8px 15px rgba(61, 5, 244, 0.16), 5px 5px 15px rgba(229, 13, 9, 0.2);
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form .display input{
+    flex:1;
+    text-align: right;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+form input.equal{
+    width: 125px;
+}
+
+form input.operator{
+    color:rgb(233, 11, 11);
+}
+
+form h2{
+    color: white;
+    text-align: center;
+}
